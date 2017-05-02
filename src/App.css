@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Popup {
+  position: absolute;
+  top: 50%;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border: 2px solid red;
+  background-color: green;
+}
+
+.Form {
+  background-color: lightgrey;
+  width: 50%;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+}
+
+.Form h3 {
+  text-transform: uppercase;
+  padding-top: 10px;
+  margin: 10px;
+}
+
+.Form-Input {
+  width: 50%;
+  height: auto;
+  margin: 10px auto 10px auto;
+}
+
+.Form-Input label {
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 20px; /* Same as parent height to center element */
+  color: grey;
+  margin-right: 5%;
+}
+
+.Form-Input input {
+  height: 100%;
+  border: none;
+  height: 20px;
+  border-radius: 3px;
+}
+
+.Input-Error {
+  outline: 1px red solid;
+}
+
+.Form-Add {
+  margin-top: 10px;
+  background-color: #000;
+  color: #fff;
+  width: 10%;
+  height: 20px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
